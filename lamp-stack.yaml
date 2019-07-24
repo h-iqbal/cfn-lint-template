@@ -49,7 +49,7 @@ Parameters:
     Type: String
     Default: t2.small
     AllowedValues:
-      - t1.small
+      - t2.small
       
     ConstraintDescription: must be a valid EC2 instance type.
   SSHLocation:
