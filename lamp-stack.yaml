@@ -140,6 +140,7 @@ Resources:
               httpd: []
               php: []
               php-mysql: []
+              nano: []
           files:
             /var/www/html/index.php:
               content: !Join 
