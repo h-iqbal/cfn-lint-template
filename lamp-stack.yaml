@@ -64,9 +64,6 @@ Mappings:
   AWSInstanceType2Arch:
     t2.small:
       Arch: HVM64
-  AWSInstanceType2NATArch:
-    t2.small:
-      Arch: NATHVM64
   AWSRegionArch2AMI:
     us-east-1:
       HVM64: ami-0080e4c5bc078760e
