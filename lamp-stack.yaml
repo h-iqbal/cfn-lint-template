@@ -376,7 +376,7 @@ Resources:
       InstanceType: !Ref InstanceType
       SecurityGroups:
         - !Ref WebServerSecurityGroup
-      KeyName: !Ref KeyName
+      KeyName: PeterTestKeyeq..ppk
       UserData: !Base64 
         'Fn::Join':
           - ''
