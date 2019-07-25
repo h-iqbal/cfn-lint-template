@@ -123,7 +123,7 @@ Mappings:
       HVM64: ami-0f7937761741dc640
       HVMG2: NOT_SUPPORTED
 Resources:
-  S3bucket-stack:
+  myStackWithParams:
     Type: AWS::CloudFormation::Stack
     Properties:
       TemplateURL: https://jenkins-prod-1.s3.amazonaws.com/S3_Website_Bucket.json
