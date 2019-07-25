@@ -128,9 +128,9 @@ Resources:
     Properties:
      AccessControl: 'PublicRead'
      WebsiteConfiguration:
-        'IndexDocument': 'index.html'
-        'ErrorDocument': 'error.html'
-        'DeletionPolicy' : 'Retain'
+        IndexDocument: 'index.html'
+        ErrorDocument: 'error.html'
+        DeletionPolicy: 'Retain'
   WebServerInstance:
     Type: 'AWS::EC2::Instance'
     Metadata:
