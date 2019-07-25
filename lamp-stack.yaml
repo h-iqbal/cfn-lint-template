@@ -130,6 +130,7 @@ Resources:
       WebsiteConfiguration: 
         ErrorDocument: error.html
         IndexDocument: index.html
+        the error line
   WebServerInstance:
     Type: 'AWS::EC2::Instance'
     Metadata:
