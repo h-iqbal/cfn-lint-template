@@ -12,7 +12,7 @@
           "IndexDocument" : "index.html",
           "ErrorDocument" : "error.html"
          }
-      },
+      }, added the error line 
       "DeletionPolicy" : "Retain"
     }
   },
