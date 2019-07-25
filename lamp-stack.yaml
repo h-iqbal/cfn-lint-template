@@ -128,7 +128,6 @@ Resources:
     Properties:
       AccessControl: PublicRead
       WebsiteConfiguration: 
-        DeletionPolicy: Retain
         ErrorDocument: error.html
         IndexDocument: index.html
   WebServerInstance:
