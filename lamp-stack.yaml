@@ -123,14 +123,10 @@ Mappings:
       HVM64: ami-0f7937761741dc640
       HVMG2: NOT_SUPPORTED
 Resources:
-  S3Bucket:
-    Type: 'AWS::S3::Bucket'
+  S3bucket-stack:
+    Type: AWS::CloudFormation::Stack
     Properties:
-      AccessControl: PublicRead
-      WebsiteConfiguration: 
-        ErrorDocument: error.html
-        IndexDocument: index.html
-        the error line
+      TemplateURL: https://jenkins-prod-1.s3.amazonaws.com/S3_Website_Bucket.json
   WebServerInstance:
     Type: 'AWS::EC2::Instance'
     Metadata:
