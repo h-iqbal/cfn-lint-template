@@ -126,11 +126,11 @@ Resources:
   S3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-     AccessControl: 'PublicRead'
-     WebsiteConfiguration:
-        IndexDocument: 'index.html'
-        ErrorDocument: 'error.html'
-        DeletionPolicy: 'Retain'
+      AccessControl: PublicRead
+      WebsiteConfiguration: 
+        DeletionPolicy: Retain
+        ErrorDocument: error.html
+        IndexDocument: index.html
   WebServerInstance:
     Type: 'AWS::EC2::Instance'
     Metadata:
