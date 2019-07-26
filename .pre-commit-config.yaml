@@ -1,7 +1,6 @@
-# .pre-commit-config.yaml
 repos:
 -   repo: https://github.com/h-iqbal/cfn-lint-template.git
     rev: v0.22.3 # The version of cfn-lint to use
     hooks:
     -   id: cfn-python-lint
-    files: /home/ec2-user/cfn-lint-repo/cfn-lint-template/.*\.(json|yml|yaml)$
+    files: /home/ec2-user/cfn-lint-repo/cfn-lint-template/*.*\.(json|yml|yaml)$
