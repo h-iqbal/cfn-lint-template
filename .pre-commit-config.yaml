@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/h-iqbal/cfn-lint-template.git
-    rev: v0.22.3 # The version of cfn-lint to use
+    rev: v1.0 # The version of cfn-lint to use
     hooks:
-    -   id: cfn-python-lint
-    files: /home/ec2-user/cfn-lint-repo/cfn-lint-template/*.*\.(json|yml|yaml)$
+    -   id: cfn-lint
+    files: /home/ec2-user/cfn-lint-repo/cfn-lint-template/.*\.(json|yml|yaml)$
