@@ -61,7 +61,7 @@ Parameters:
     AllowedPattern: '(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})/(\d{1,2})'
     ConstraintDescription: must be a valid IP CIDR range of the form x.x.x.x/x.
 Mappings:
-this is an another error line to test the pre-commit
+this is an error line to test the pre-commit
   AWSInstanceType2Arch:
     t2.small:
       Arch: HVM64
