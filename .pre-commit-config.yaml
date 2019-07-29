@@ -3,4 +3,4 @@ repos:
     rev: v1.0 # The version of cfn-lint to use
     hooks:
     -   id: cfn-lint
-    files: /home/ec2-user/cfn-lint-repo/cfn-lint-template/.*\.(json|yml|yaml)$
+    files: /home/ec2-user/cfn-lint-template/.*\.(json|yml|yaml)$
