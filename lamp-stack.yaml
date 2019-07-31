@@ -126,7 +126,7 @@ Resources:
   myStackWithParams:
     Type: AWS::CloudFormation::Stack
     Properties:
-      TemplateURL: https://jenkins-prod-1.s3.amazonaws.com/S3_Website_Bucket.json
+      TemplateURL: https://jenkins-prod-1.s3.amazonaws.com/S3_Website_Bucket2.json
   WebServerInstance:
     Type: 'AWS::EC2::Instance'
     Metadata:
